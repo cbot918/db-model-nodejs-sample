@@ -1,5 +1,9 @@
 # db-model-schema-example-nodejs
 
+# description
+
+一個試著了解 model 跟 dao 的 nodejs 小範例, 此範例只是用 crud.js 去操作 dao, 未實作 http restful api
+
 # pre requesties
 
 - mysql docker container ( 用 local mysql server 也可以, 但下面指令是 for docker)
@@ -14,6 +18,8 @@
 4. run app `npm start`
 
 # details:
+
+如果要實作 restful api, 大概架構以下
 
 - controller: src/controller
 - dao: src/dao/
