@@ -1,6 +1,6 @@
 # db-model-schema-example-nodejs
 
-一個試著了解 model 跟 dao 的 nodejs 小範例, 此範例只是用 crud.js 去操作 dao, 未實作 http restful api
+一個試著了解 model 跟 dao 的 nodejs 小範例, 此範例只是用 crud.js 去操作 dao, 未實作 http restful api, 未使用 ORM
 
 # pre requesties
 
