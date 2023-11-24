@@ -23,7 +23,7 @@
 - dao: src/dao/
 - model: src/models/
 
-# db first implementation flow
+# db first flow
 
 1. db schema 決定好
 2. 定義好 model
