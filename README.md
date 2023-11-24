@@ -1,5 +1,10 @@
 # db-model-schema-example-nodejs
 
+# pre requesties
+
+- mysql docker container ( 用 local mysql server 也可以, 但下面指令是 for docker)
+- nodejs
+
 # run project
 
 0. install dependencies `npm install`
