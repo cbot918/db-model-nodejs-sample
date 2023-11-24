@@ -1,0 +1,21 @@
+{
+  "name": "cc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/api",
+    "start": "node src/api",
+    "createdb": "docker run --name temp-mysql -e MYSQL_ROOT_PASSWORD=12345 -e MYSQL_DATABASE=tempdb -p 3308:3306 -d mysql",
+    "copysql": "docker cp user.sql temp-mysql:/user.sql",
+    "migrate": "docker exec -i temp-mysql mysql -uroot -p12345 tempdb < user.sql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.6.5",
+    "nodemon": "^3.0.1"
+  }
+}
